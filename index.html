@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Water Quality Monitoring</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">
+                <i class="fas fa-water"></i>
+                <span>AquaSense</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="dashboard.html">Dashboard</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#impact">Impact</a></li>
+            </ul>
+            <button class="btn btn-outline" onclick="window.location.href='dashboard.html'">
+                <i class="fas fa-chart-line"></i> Live Monitor
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="sdg-badge">
+                    <i class="fas fa-leaf"></i> SDG 6 – Clean Water and Sanitation
+                </div>
+                <h1>Smart Water Quality<br>Monitoring System</h1>
+                <p>AI-powered IoT solution that continuously monitors water quality and alerts communities when water becomes unsafe.</p>
+                <div class="hero-buttons">
+                    <button class="btn" onclick="window.location.href='dashboard.html'">
+                        <i class="fas fa-tachometer-alt"></i> View Dashboard
+                    </button>
+                    <button class="btn btn-outline" onclick="window.location.href='#features'">
+                        <i class="fas fa-microchip"></i> How It Works
+                    </button>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="https://images.unsplash.com/photo-1581244277943-fe4a9c777189?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" 
+                     alt="Water quality testing" 
+                     onerror="this.src='https://via.placeholder.com/600x400?text=Water+Quality+Monitoring'">
+            </div>
+        </div>
+    </section>
+
+    <!-- SDG Impact Banner -->
+    <section class="impact-banner">
+        <div class="container">
+            <div class="impact-stats">
+                <div class="stat-item">
+                    <i class="fas fa-droplet"></i>
+                    <span class="stat-number">2.2B</span>
+                    <span class="stat-label">People lack safe drinking water</span>
+                </div>
+                <div class="stat-item">
+                    <i class="fas fa-skull-crossbones"></i>
+                    <span class="stat-number">485K</span>
+                    <span class="stat-label">Deaths/year from contaminated water</span>
+                </div>
+                <div class="stat-item">
+                    <i class="fas fa-check-circle"></i>
+                    <span class="stat-number">Real-time</span>
+                    <span class="stat-label">AI-powered detection</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features">
+        <div class="container">
+            <h2 class="section-title">Complete Monitoring Solution</h2>
+            <div class="features-grid">
+                <!-- IoT Sensors Card -->
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-microchip"></i>
+                    </div>
+                    <h3>IoT Sensors</h3>
+                    <ul class="sensor-list">
+                        <li><i class="fas fa-flask"></i> pH Level</li>
+                        <li><i class="fas fa-water"></i> Turbidity</li>
+                        <li><i class="fas fa-thermometer-half"></i> Water Temperature</li>
+                        <li><i class="fas fa-bolt"></i> Electrical Conductivity</li>
+                    </ul>
+                </div>
+
+                <!-- AI Features Card -->
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-brain"></i>
+                    </div>
+                    <h3>AI Features</h3>
+                    <ul class="feature-list">
+                        <li><i class="fas fa-exclamation-triangle"></i> Detect abnormal patterns</li>
+                        <li><i class="fas fa-chart-line"></i> Predict contamination risks</li>
+                        <li><i class="fas fa-robot"></i> Machine learning model</li>
+                        <li><i class="fas fa-bell"></i> Early warning system</li>
+                    </ul>
+                </div>
+
+                <!-- Fullstack Platform Card -->
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <h3>Fullstack Platform</h3>
+                    <ul class="platform-list">
+                        <li><i class="fas fa-chart-pie"></i> Real-time dashboard</li>
+                        <li><i class="fas fa-history"></i> Historical data viz</li>
+                        <li><i class="fas fa-sms"></i> SMS alerts</li>
+                        <li><i class="fas fa-mobile-alt"></i> Mobile responsive</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works -->
+    <section class="how-it-works">
+        <div class="container">
+            <h2 class="section-title">How It Works</h2>
+            <div class="steps">
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <i class="fas fa-microchip"></i>
+                    <h4>IoT Sensors</h4>
+                    <p>Continuous water quality monitoring at source</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <i class="fas fa-cloud-upload-alt"></i>
+                    <h4>Data Transmission</h4>
+                    <p>Real-time data sent to cloud platform</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <i class="fas fa-brain"></i>
+                    <h4>AI Analysis</h4>
+                    <p>Pattern detection & risk prediction</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">4</div>
+                    <i class="fas fa-bell"></i>
+                    <h4>Instant Alerts</h4>
+                    <p>SMS notifications for unsafe water</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <i class="fas fa-water"></i>
+                    <span>AquaSense</span>
+                </div>
+                <p>AI + IoT Hackathon · SDG 6 Challenge</p>
+                <div class="footer-links">
+                    <a href="#"><i class="fab fa-github"></i></a>
+                    <a href="#"><i class="fas fa-envelope"></i></a>
+                    <a href="#"><i class="fas fa-phone"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
